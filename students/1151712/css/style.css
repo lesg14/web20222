@@ -1,13 +1,14 @@
 body {
-	font-family: arial;
+	font-family: Arial;
 }
 .img img {
-	border-radius: 50%;
-	width: 50%;
+	border-radius: 25%;
+	width: 25%;
 	max-width: 200px;
 	min-height: 150px;
 	margin: 0 auto;
 	border: solid;
+	text-align: center;
 
 }
 
@@ -19,7 +20,7 @@ body {
 
 header {
 	width: 100%;
-	background-color: #a5cfe8;
+	background-color: #66B032;
 	padding-bottom: 20px;
 	padding-top: 50px;
 
@@ -28,19 +29,19 @@ header {
 .presentacion {
 	display: flex;
     align-items: center;
-    background-color: #a5cfe8;
+    background-color: #9BD770;
     padding-bottom: 20px;
 }
 
 .presentacion__nombre {
-
+	text-align: center;
 	margin: 0 auto;
-		align-items: center;
 
 }
 
 .presentacion span,a {
 
 	margin: 0 auto;
+	text-align: center;
 
 }
