@@ -35,12 +35,15 @@ header {
 .presentacion__nombre {
 
 	margin: 0 auto;
-		align-items: center;
 
 }
 
-.presentacion span,a {
+.presentacion__nombre,h1{
+	color: #642a64
+}
 
+.presentacion span,a {
+	
 	margin: 0 auto;
 
 }
