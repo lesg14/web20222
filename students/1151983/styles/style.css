@@ -1,12 +1,13 @@
 body {
 	font-family: arial;
+	background-color: rgb(42, 41, 41);
 }
 .img img {
 	border-radius: 50%;
 	width: 50%;
-	max-width: 200px;
-	min-height: 150px;
-	margin: 0 auto;
+	max-width: 350px;
+	min-height: 300px;
+	margin: 0px auto;
 	border: solid;
 
 }
@@ -19,16 +20,17 @@ body {
 
 header {
 	width: 100%;
-	background-color: #a5cfe8;
+	background-color: #d1d1d1;
 	padding-bottom: 20px;
-	padding-top: 50px;
+	padding-top: 20px;
 
 }
 
 .presentacion {
 	display: flex;
     align-items: center;
-    background-color: #a5cfe8;
+	justify-content: center;
+    background-color: #e8e8e8;
     padding-bottom: 20px;
 }
 
@@ -40,7 +42,14 @@ header {
 }
 
 .presentacion span,a {
-
 	margin: 0 auto;
+	background-color: #68c9ae;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
 
 }
