@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>Contacto</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="nav navbar-nar" href="index.html">
+                    <img title="Rusia 2018" src="http://www.balonazos.com/wp-content/uploads/2015/11/RUSIA2018.png" />
+                </a>
+
+            </div>
+            <div>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown"><a href="index.html">Inicio</a></li>
+                    <li class="dropdown"><a href="#">Sede</a></li>
+                    <li class="dropdown"><a href="#">Partidos</a></li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Grupos A <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Rusia</a></li>
+                            <li><a href="#">Arabia Saudita</a></li>
+                            <li><a href="#">Egipto</a></li>
+                            <li><a href="#">Uruguay</a></li>
+                        </ul>
+                        </a>
+                    </li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Grupos B <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">España</a></li>
+                            <li><a href="#">Irán</a></li>
+                            <li><a href="#">Marruecos</a></li>
+                            <li><a href="#">Portugal</a></li>
+                        </ul>
+                        </a>
+                    </li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Grupos C <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Australia</a></li>
+                            <li><a href="#">Dinamarca</a></li>
+                            <li><a href="#">Francia</a></li>
+                            <li><a href="#">Perú</a></li>
+                        </ul>
+                        </a>
+                    </li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Grupos D <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Argentina</a></li>
+                            <li><a href="#">Croacia</a></li>
+                            <li><a href="#">Islandia</a></li>
+                            <li><a href="#">Nigeria</a></li>
+                        </ul>
+                        </a>
+                    </li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Grupos H <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Polinia</a></li>
+                            <li><a href="#">Senegal</a></li>
+                            <li><a href="selecciones/colombia.html">Colombia</a></li>
+                            <li><a href="#">Japón</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <form class="contact_form" action="#" id="contact_form" runat="server">
+        <div>
+            <ul>
+                <li>
+                    <h2>Contactos</h2>
+                    <span class="required_notification">* Datos requeridos</span>
+                </li>
+                <li>
+                    <label for="name">Nombre:</label>
+                    <input type="text" placeholder="Carlos Rosendo Gutierrez" required />
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="nombre@algo.com" required />
+                    <span class="form_hint">Formato correcto: "nombre@algo.com"</span>
+                </li>
+                <li>
+                    <label for="website">Sitio web:</label>
+                    <input type="url" name="website" placeholder="http://algo.com" required
+                        pattern="(http|https)://.+" />
+                    <span class="form_hint">Formato correcto: "http://algo.com"</span>
+                </li>
+                <li>
+                    <label for="message">Mensaje:</label>
+                    <textarea name="message" cols="40" rows="6" required></textarea>
+                </li>
+                <li>
+                    <button class="submit" type="submit">Enviar mensaje</button>
+                </li>
+            </ul>
+        </div>
+    </form>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
